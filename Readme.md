@@ -6,9 +6,9 @@ This package allows you to use Wordpress users in your Laravel application.
 
 Much of the code and idea came from [this](https://github.com/Shelob9/laravel-wordpress-user-provider) package.
 
-### Installation
+## Installation
 
-#### Wordpress
+### Wordpress
 
 - Install JWT Authentication for WP-API plugin
   - [https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/](https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/)
@@ -22,7 +22,7 @@ JWT Authentication for WP-API plugin no longer passes the user id in the data, s
   - Easiest way to .zip the laravel-wp-auth folder and upload it using the plugin uploader
   - It is called Laravel-WP-Auth JWT Data
 
-#### Laravel
+### Laravel
 
 - Install the package
     - `composer require 2h4services/laravel-wp-auth`
