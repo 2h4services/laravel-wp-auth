@@ -1,0 +1,27 @@
+{
+    "name": "2h4services/laravel-wp-auth",
+    "description": "Laravel package to authenticate users against a WordPress database",
+    "version": "0.0.1",
+    "require": {
+        "php": "^8.0.2",
+        "laravel/framework": "^9.0.0",
+        "spatie/data-transfer-object": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "twoh4services\\LaravelWpAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "2h4services"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "twoh4services\\LaravelWpAuth\\WpAuthServiceProvider"
+            ]
+        }
+    }
+}
